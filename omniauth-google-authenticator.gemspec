@@ -2,21 +2,12 @@
 require File.dirname(__FILE__) + '/lib/omniauth-google-authenticator/version'
 
 Gem::Specification.new do |gem|
-  gem.add_runtime_dependency 'omniauth', '~> 1.0'
-  # gem.add_runtime_dependency 'bcrypt-ruby', '~> 3.0'
-  # gem.add_runtime_dependency 'bcrypt-ruby', '~> 3.0'
+  gem.add_runtime_dependency 'omniauth', '>= 1.3.2'
 
   gem.add_development_dependency 'maruku', '~> 0.6'
   gem.add_development_dependency 'simplecov', '~> 0.4'
   gem.add_development_dependency 'rack-test', '~> 0.5'
   gem.add_development_dependency 'rake', '~> 13.0'
-  # gem.add_development_dependency 'rspec', '~> 2.7'
-  # gem.add_development_dependency 'activerecord', '~> 3.1'
-  # gem.add_development_dependency 'mongoid'
-  # gem.add_development_dependency 'mongo_mapper'
-  # gem.add_development_dependency 'datamapper'
-  # gem.add_development_dependency 'bson_ext'
-  # gem.add_development_dependency 'couch_potato'
 
   gem.name = 'omniauth-google-authenticator'
   gem.version = OmniAuth::GoogleAuthenticator::VERSION
